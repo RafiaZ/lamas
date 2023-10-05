@@ -11,5 +11,32 @@
     <h5>The zebra store</h5>
     <div>here is the lamas store</div>
     <div>Creating committ</div>
+
+
+    <script>
+        const a= [4,3,6,3,4,3]
+        const count =[]
+
+        for(let i=0; i<=a.length; i++){
+      
+            if(count[a[i]]){
+               
+                count[a[i]] +=1;
+               
+
+            }
+            else{
+                count[a[i]] = 1
+            }
+
+       for(let ele in count){
+        if(count[ele] >=2){
+            console.log(ele + "counted" + count[ele] + 'times')
+        }
+       }
+        }
+    </script>
 </body>
+
+
 </html>
